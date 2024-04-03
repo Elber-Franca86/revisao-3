@@ -15,3 +15,11 @@ def primeiro_ultimo():
     print("4 -", nomes[3])
 
 primeiro_ultimo()
+
+def segundo_terceiro():
+    nomes = ["Carlos", "Jorge", "Isabel", "Maria"]
+
+    print("2 -", nomes[1])
+    print("3 -", nomes[2])
+
+segundo_terceiro()
