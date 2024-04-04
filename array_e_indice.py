@@ -26,6 +26,18 @@ def segundo_terceiro():
 
 segundo_terceiro()
 
-def produtos_venda():
+def substituir_alimentos():
+  
   alimentos = ["Macarrão", "Pepino", "Batata"]
-  print
+
+  for i in range(3):
+     alimento = input("Digite o nome do alimento: ")
+     alimentos[i] = alimento
+
+     print("Nova lista de alimentos:")
+
+  for alimento in alimentos:
+
+     print(alimento)
+
+substituir_alimentos() 
