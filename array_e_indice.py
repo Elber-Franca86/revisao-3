@@ -8,6 +8,7 @@ def imprimir_nomes():
 
 imprimir_nomes()
 
+
 def primeiro_ultimo():
     nomes = ["João", "Maria", "Fulano", "Beltrano"]
 
@@ -16,6 +17,7 @@ def primeiro_ultimo():
 
 primeiro_ultimo()
 
+
 def segundo_terceiro():
     nomes = ["Carlos", "Jorge", "Isabel", "Maria"]
 
@@ -23,3 +25,7 @@ def segundo_terceiro():
     print("3 -", nomes[2])
 
 segundo_terceiro()
+
+def produtos_venda():
+  alimentos = ["Macarrão", "Pepino", "Batata"]
+  print
